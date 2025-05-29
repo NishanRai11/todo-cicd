@@ -79,10 +79,10 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "✅ Deployment Complete: Node.js App"
-          to: maheshanekallu@gmail.com
+          to: nishanrai234@gmail.com
           from: "GitHub Actions <${{ secrets.EMAIL_USERNAME }}>"
           body: |
-            🚀 Hello Mahesh!
+            🚀 Hello Nishan!
 
             Your Node.js application has been successfully deployed to Render.
 
