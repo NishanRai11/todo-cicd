@@ -5,7 +5,7 @@ function addTask() {
     if (taskText === '') return;
   
     const li = document.createElement('li');
-    li.textContent = 'priority' +taskText;
+    li.textContent = priority + taskText;
   
     // Create Remove Button
     const removeBtn = document.createElement('button');
