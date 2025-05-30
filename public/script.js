@@ -5,7 +5,7 @@ function addTask() {
     if (taskText === '') return;
   
     const li = document.createElement('li');
-    li.textContent = taskText;
+    li.textContent = 'priority' +taskText;
   
     // Create Remove Button
     const removeBtn = document.createElement('button');
@@ -15,6 +15,7 @@ function addTask() {
   
     li.appendChild(removeBtn);
     document.getElementById('taskList').appendChild(li);
+    
   
     taskInput.value = '';
   }
